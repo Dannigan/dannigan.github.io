@@ -14,7 +14,7 @@ var pointsData = firebase.database().ref();
 var points = [];
 
 function setup() {
-  createCanvas(400, 400);
+  var canvas = createCanvas(400, 400);
   background(240);
   fill(0);
 
@@ -25,7 +25,7 @@ function setup() {
     points = [];
   });
 
-  //canvas.mousePressed(drawPoint);
+  canvas.mousePressed(drawPoint);
   canvas.mouseMoved(drawPointIfMousePressed);
 }
 
