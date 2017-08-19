@@ -15,17 +15,17 @@ var points = [];
 
 function setup() {
   createCanvas(400, 400);
-  background(255);
+  background(240);
   fill(0);
 
-    pointsData.on("child_added", function (point) {
+  pointsData.on("child_added", function(point) {
     points.push(point.val());
   });
-  pointsData.on("child_removed", function () {
+  pointsData.on("child_removed", function() {
     points = [];
   });
 
-  canvas.mousePressed(drawPoint);
+  //canvas.mousePressed(drawPoint);
   canvas.mouseMoved(drawPointIfMousePressed);
 }
 
