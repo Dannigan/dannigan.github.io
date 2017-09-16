@@ -1,0 +1,26 @@
+html {
+  max-width: 50em;
+  margin: 50 auto;
+  padding: 40px;
+  font-family: Avenir Next, 'Roboto Slab', serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #3300FF;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+h1, h2, #news {
+  font-weight: 300;
+}
+
+#news {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
