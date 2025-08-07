@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolAir Pro - Professional HVAC Services</title>
+    <meta name="description" content="Professional HVAC services including heating, cooling, ventilation, and maintenance. Serving residential and commercial clients with 24/7 emergency service.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <i class="fas fa-snowflake"></i>
+                <span>CoolAir Pro</span>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#testimonials" class="nav__link">Reviews</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a href="tel:+1234567890" class="nav__cta">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Professional HVAC Services
+                        <span class="hero__highlight">You Can Trust</span>
+                    </h1>
+                    <p class="hero__description">
+                        Expert heating, cooling, and ventilation solutions for your home and business. 
+                        Licensed, insured, and available 24/7 for emergency repairs.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">Get Free Quote</a>
+                        <a href="tel:+1234567890" class="btn btn--secondary">
+                            <i class="fas fa-phone"></i>
+                            Emergency Service
+                        </a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number">15+</span>
+                            <span class="stat__label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">5000+</span>
+                            <span class="stat__label">Happy Customers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">24/7</span>
+                            <span class="stat__label">Emergency Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__image-placeholder">
+                        <i class="fas fa-tools"></i>
+                        <p>HVAC Technician at Work</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Services</h2>
+                    <p class="section__subtitle">Complete HVAC solutions for residential and commercial properties</p>
+                </div>
+                <div class="services__grid">
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3 class="service__title">Heating Systems</h3>
+                        <p class="service__description">
+                            Installation, repair, and maintenance of furnaces, boilers, heat pumps, and radiant heating systems.
+                        </p>
+                        <ul class="service__features">
+                            <li>Furnace installation & repair</li>
+                            <li>Heat pump services</li>
+                            <li>Boiler maintenance</li>
+                            <li>Ductwork inspection</li>
+                        </ul>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h3 class="service__title">Air Conditioning</h3>
+                        <p class="service__description">
+                            Professional AC installation, repair, and maintenance to keep you cool all summer long.
+                        </p>
+                        <ul class="service__features">
+                            <li>Central AC systems</li>
+                            <li>Ductless mini-splits</li>
+                            <li>AC repair & tune-ups</li>
+                            <li>Energy efficiency upgrades</li>
+                        </ul>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h3 class="service__title">Ventilation</h3>
+                        <p class="service__description">
+                            Improve indoor air quality with professional ventilation and air purification systems.
+                        </p>
+                        <ul class="service__features">
+                            <li>Air duct cleaning</li>
+                            <li>Ventilation design</li>
+                            <li>Air purifiers</li>
+                            <li>Humidity control</li>
+                        </ul>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3 class="service__title">Emergency Repairs</h3>
+                        <p class="service__description">
+                            24/7 emergency HVAC repair services when you need them most. Fast, reliable, and professional.
+                        </p>
+                        <ul class="service__features">
+                            <li>24/7 availability</li>
+                            <li>Same-day service</li>
+                            <li>Emergency diagnostics</li>
+                            <li>Upfront pricing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__container">
+                    <div class="about__content">
+                        <div class="section__header">
+                            <h2 class="section__title">Why Choose CoolAir Pro?</h2>
+                            <p class="section__subtitle">Your trusted local HVAC experts with over 15 years of experience</p>
+                        </div>
+                        <div class="about__features">
+                            <div class="feature">
+                                <div class="feature__icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Licensed & Insured</h3>
+                                    <p class="feature__description">Fully licensed, bonded, and insured for your peace of mind</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature__icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">24/7 Emergency Service</h3>
+                                    <p class="feature__description">Available around the clock for urgent HVAC repairs</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature__icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Upfront Pricing</h3>
+                                    <p class="feature__description">No hidden fees - you'll know the cost before we start</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature__icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Satisfaction Guarantee</h3>
+                                    <p class="feature__description">100% satisfaction guarantee on all our work</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__image">
+                        <div class="about__image-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                            <p>Professional HVAC Team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">What Our Customers Say</h2>
+                    <p class="section__subtitle">Don't just take our word for it - hear from satisfied customers</p>
+                </div>
+                <div class="testimonials__grid">
+                    <div class="testimonial__card">
+                        <div class="testimonial__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial__text">
+                            "CoolAir Pro saved the day when our AC broke down during a heatwave. They responded within an hour and had us up and running the same day. Professional, friendly, and reasonably priced!"
+                        </p>
+                        <div class="testimonial__author">
+                            <strong>Sarah Johnson</strong>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__card">
+                        <div class="testimonial__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial__text">
+                            "We've used CoolAir Pro for all our office buildings. Their maintenance program keeps our systems running efficiently and saves us money on energy costs. Highly recommended!"
+                        </p>
+                        <div class="testimonial__author">
+                            <strong>Mike Chen</strong>
+                            <span>Property Manager</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__card">
+                        <div class="testimonial__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial__text">
+                            "Excellent service from start to finish. They installed our new heating system quickly and efficiently. The technicians were knowledgeable and cleaned up after themselves. Great experience!"
+                        </p>
+                        <div class="testimonial__author">
+                            <strong>David Rodriguez</strong>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Get Your Free Quote Today</h2>
+                    <p class="section__subtitle">Ready to improve your comfort? Contact us for a free, no-obligation quote</p>
+                </div>
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact__details">
+                                <h3>Call Us</h3>
+                                <p>(555) 123-4567</p>
+                                <span>24/7 Emergency Service</span>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact__details">
+                                <h3>Email Us</h3>
+                                <p>info@coolairpro.com</p>
+                                <span>We'll respond within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact__details">
+                                <h3>Visit Us</h3>
+                                <p>123 Main Street<br>Anytown, ST 12345</p>
+                                <span>Mon-Fri: 8AM-6PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" class="form__input" placeholder="Your Phone">
+                        </div>
+                        <div class="form__group">
+                            <select class="form__input" required>
+                                <option value="">Select Service</option>
+                                <option value="heating">Heating Service</option>
+                                <option value="cooling">Air Conditioning</option>
+                                <option value="ventilation">Ventilation</option>
+                                <option value="emergency">Emergency Repair</option>
+                                <option value="maintenance">Maintenance</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <textarea class="form__input form__textarea" placeholder="Describe your HVAC needs..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Get Free Quote</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <div class="footer__section">
+                        <div class="footer__logo">
+                            <i class="fas fa-snowflake"></i>
+                            <span>CoolAir Pro</span>
+                        </div>
+                        <p class="footer__description">
+                            Professional HVAC services you can trust. Licensed, insured, and committed to your comfort.
+                        </p>
+                        <div class="footer__social">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social__link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social__link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social__link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__section">
+                        <h3 class="footer__title">Services</h3>
+                        <ul class="footer__links">
+                            <li><a href="#services">Heating Systems</a></li>
+                            <li><a href="#services">Air Conditioning</a></li>
+                            <li><a href="#services">Ventilation</a></li>
+                            <li><a href="#services">Emergency Repairs</a></li>
+                            <li><a href="#services">Maintenance Plans</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h3 class="footer__title">Company</h3>
+                        <ul class="footer__links">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#testimonials">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h3 class="footer__title">Emergency Service</h3>
+                        <div class="footer__emergency">
+                            <p>24/7 Emergency Repairs</p>
+                            <a href="tel:+1234567890" class="footer__phone">
+                                <i class="fas fa-phone"></i>
+                                (555) 123-4567
+                            </a>
+                        </div>
+                        <div class="footer__certifications">
+                            <p>Licensed & Insured</p>
+                            <p>License #HVAC-12345</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>&copy; 2024 CoolAir Pro. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
