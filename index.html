@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danny | Personal Website</title>
+  <meta name="description" content="Personal website for Danny featuring projects, skills, and contact links." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="logo" href="#">Danny</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Danny G.</h1>
+      <p class="tagline">I build playful web experiences and useful tools.</p>
+      <a class="button" href="#projects">See My Work</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I'm a developer who enjoys creating interactive websites and browser-based games.
+        I care about clean UI, solid performance, and shipping projects that people enjoy using.
+      </p>
+      <ul class="skills">
+        <li>JavaScript</li>
+        <li>HTML/CSS</li>
+        <li>Front-end Architecture</li>
+        <li>Game Prototyping</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <a class="project" href="dashboard/index.html">
+          <h3>Dashboard</h3>
+          <p>Data-focused interface with modular components.</p>
+        </a>
+        <a class="project" href="platformer/index.html">
+          <h3>Platformer</h3>
+          <p>Browser platform game with responsive controls.</p>
+        </a>
+        <a class="project" href="hvac-website/index.html">
+          <h3>HVAC Website</h3>
+          <p>Service business site with clear calls to action.</p>
+        </a>
+        <a class="project" href="dodge/index.html">
+          <h3>Dodge Game</h3>
+          <p>Fast-paced survival mini-game built for fun.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Want to collaborate or hire me for a project? Let's connect.</p>
+      <div class="contact-links">
+        <a href="mailto:danny@example.com">Email</a>
+        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Danny G. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
